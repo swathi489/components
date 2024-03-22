@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.list-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#list li {
+  margin-bottom: 5px;
+}
+
+#list li:last-child {
+  margin-bottom: 0;
+}
+
+button {
+  background-color: aqua;
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+input[type="text"] {
+  width: calc(100% - 70px); 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

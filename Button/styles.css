@@ -1,0 +1,45 @@
+/* CSS for button */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #cf626286; 
+}
+.button {
+  margin: 0 10px; 
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button.blue {
+  background-color: #007bff;
+}
+
+.button.red {
+  background-color: #ff6347;
+}
+
+.button.green {
+  background-color: #28a745;
+}
+
+.button.rounded {
+  border-radius: 50px;
+}
+
+.button.large {
+  padding: 15px 30px;
+  font-size: 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
